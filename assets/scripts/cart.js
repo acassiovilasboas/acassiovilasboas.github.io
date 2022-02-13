@@ -7,12 +7,6 @@ buttonAdd.forEach((item) => {
     })
 })
 
-buttonAdd.forEach((item) => {
-    item.addEventListener("touchstart", () => {
-        addItem(item.parentElement.parentElement)
-    })
-})
-
 buttonRemove.forEach((item) => {
     item.addEventListener("click", () => {
         removeItem(item.parentElement.parentElement)
