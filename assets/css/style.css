@@ -23,6 +23,12 @@
     border: none;
 }
 
+.btn.btn-add:active, .btn.btn-remove:active, .btn.btn-pix:active {
+    background-color: #fff4e6;
+    border: none;
+    color: #f03e3e;
+}
+
 .btn.btn-add {
     background-color: #4dabf7;
 }
