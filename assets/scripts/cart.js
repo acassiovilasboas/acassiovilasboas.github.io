@@ -55,3 +55,15 @@ function formatReal( int )
 
         return tmp;
 }
+
+function resetItems() {
+    let itemsQuantity = document.querySelectorAll(".total-selected")
+    itemsQuantity.forEach((item) => {
+        item.querySelector("strong").textContent = 0
+    })
+
+    let totals = document.querySelectorAll(".total")
+    totals.forEach((item) => {
+        item.textContent = "R$ 0"
+    })
+}
